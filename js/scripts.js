@@ -1,12 +1,17 @@
-// function saySomething(whatToSay) {
-//  window.alert(whatToSay);
+//function add (number1, number2) {
+  //return number1 + number2;
 //}
 
-function add(number1, number2) {
-  return number1 + number2;
+//const number1 = prompt("enter a number!");
+//const number2 = prompt("enter another number!");
+
+//window.alert(add(number1, number2));
+
+function multiply (num1, num2) {
+  return num1 * num2;
 }
 
-const number1 = parseInt(prompt("Give me a number"));
-const number2 = parseInt(prompt("give me another number!"));
+const num1 = prompt("enter a number here!");
+const num2 = prompt("enter another number");
 
-window.alert(add(number1,number2));
+window.alert(multiply(num1,num2));
